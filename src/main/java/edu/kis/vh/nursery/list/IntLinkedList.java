@@ -2,8 +2,9 @@ package edu.kis.vh.nursery.list;
 
 public class IntLinkedList {
 
+    private static final int NEGATIVE_ONE = -1;
     private Node last;
-    private int i;
+    private int i; //chyba nie potrzebne ale kto wie
 
     public void push(int i) {
         if (last == null)
@@ -25,13 +26,13 @@ public class IntLinkedList {
 
     public int top() {
         if (isEmpty())
-            return -1;
+            return NEGATIVE_ONE;
         return last.getValue();
     }
 
     public int pop() {
         if (isEmpty())
-            return -1;
+            return NEGATIVE_ONE;
         int ret = last.getValue();
         last = last.getPrev();
         return ret;
