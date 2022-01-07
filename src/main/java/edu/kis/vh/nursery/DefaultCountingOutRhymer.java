@@ -7,7 +7,7 @@ public class DefaultCountingOutRhymer {
     private static final int EMPTY_RHYMER_INDICATOR = -1;
     private static final int DEFAULT_VALUE = -1;
 
-    final private int[] numbers = new int[SIZE];
+    final private int[] numbers = new int[SIZE]; // TODO Stack size should be dynamic
 
     private int total = DEFAULT_VALUE;
 
