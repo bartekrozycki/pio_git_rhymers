@@ -1,9 +1,9 @@
-package edu.kis.vh.nursery.list;
+package edu.kis.vh.nursery.stack;
 
 /**
  * Simple node class with value and connections to prev and next
  * <p>
- * Used by {@link IntLinkedList}
+ * Used by {@link IntListStack}
  */
 class Node {
 
