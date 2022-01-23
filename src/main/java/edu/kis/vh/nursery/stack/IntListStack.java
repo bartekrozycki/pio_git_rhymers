@@ -1,6 +1,6 @@
 package edu.kis.vh.nursery.stack;
 
-public class IntLinkedList implements IntStack {
+public class IntListStack implements IntStack {
 
 	private static final int EMPTY_RETURN_VALUE = StackConfig.EMPTY_RETURN_VALUE;
 	private Node last;
